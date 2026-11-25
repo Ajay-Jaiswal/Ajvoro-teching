@@ -1,0 +1,41 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+.venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+
+# Cache and logs
+.cache/
+*.log
+.pytest_cache/
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model files (uncomment if you don't want to upload AI models)
+# *.onnx
+# *.pt
+# *.pth
+# *.safetensors
